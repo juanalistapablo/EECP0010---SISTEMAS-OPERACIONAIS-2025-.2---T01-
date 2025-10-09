@@ -8,7 +8,7 @@
 
 ## Universidade Federal do Maranhão  
 ### Engenharia da Computação  
-### Disciplina: EECP0053 – **EECP0010 - SISTEMAS OPERACIONAIS*  
+### Disciplina: EECP0053 – *EECP0010 - SISTEMAS OPERACIONAIS*  
 *DISCENTES*:**JUAN PABLO F. M. MACEDO**
 
 **E-mail:** <juan.mondego@discente.ufma.br>  
