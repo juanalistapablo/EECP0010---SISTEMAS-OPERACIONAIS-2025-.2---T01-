@@ -47,7 +47,7 @@ Objetivos específicos:
 
 ### Licença (MIT)
 
-> Este material é resultado de um trabalho acadêmico para a disciplina *EECP0010 - *SISTEMAS OPERACIONAIS*, semestre letivo 2025.1, curso Engenharia da Computação, UFMA.
+> Este material é resultado de um trabalho acadêmico para a disciplina *EECP0010 - SISTEMAS OPERACIONAIS*, semestre letivo 2025.1, curso Engenharia da Computação, UFMA.
 
 ```
 MIT License
