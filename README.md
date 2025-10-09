@@ -39,7 +39,7 @@ Objetivos específicos:
 @versão:               2.0
 @outros repositórios:  [https://github.com/juanalistapablo/Sistema-de-Diagn-stico-de-ve-culos, https://github.com/juanalistapablo/python_regression/tree/main/regressao-linear-ex1_JUANPABLOFURTADO]
 @Agradecimentos:       Universidade Federal do Maranhão (UFMA),
-                       Prof.  VANDECIA REJANE MONTEIRO FERNANDES,
+                       Prof.  ALANA DE ARAUJO OLIVEIRA MEIRELES TEIXEIRA,
                        colegas de curso.
 ```
 
