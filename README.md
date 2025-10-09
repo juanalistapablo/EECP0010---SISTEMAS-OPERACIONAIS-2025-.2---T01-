@@ -1,4 +1,4 @@
-# Repositorio –  **BANCO DE DADOS**
+# Repositorio –  **SISTEMAS OPERACIONAIS**
 
 ---
 
@@ -8,8 +8,8 @@
 
 ## Universidade Federal do Maranhão  
 ### Engenharia da Computação  
-### Disciplina: EECP0053 – **EECP0004 - BANCO DE DADOS**  
-*DISCENTES*:**JUAN PABLO F. M. MACEDO, NOAM WILLYAN DE ARAUJO COSTA E MATHEUS DONAVAN CARVALHO SOUSA**
+### Disciplina: EECP0053 – **EECP0010 - SISTEMAS OPERACIONAIS*  
+*DISCENTES*:**JUAN PABLO F. M. MACEDO**
 
 **E-mail:** <juan.mondego@discente.ufma.br>  
 
@@ -19,13 +19,13 @@
 
 ## 🎯 Objetivos
 
-Descrever os modelos e os componentes de Sistemas de Bancos de Dados. Projetar Bancos de Dados, usando técnicas e ferramentas modernas de Projeto de Bancos de Dados Relacionais. Construir e reestruturar bancos de dados relacionais dentro dos padrões de normalização. Conhecer e utilizar teorias e linguagens padronizadas para manipulação e acesso a dados
+- Aprender os principais conceitos de sistemas operacionais e como eles operam.
 
 Objetivos específicos:
 
-1.  Saber projetar, manipular e gerenciar um banco de dados de forma eficiente;
+1. Conhecer alguns dos sistemas operacionais existentes e como eles operam.
 
-2. Saber escolher tipo de banco de dados mais adequado ao problema a ser resolvido
+2. Compreender os conceitos fundamentais de gerenciamento de processos, memória e dispositivos de entrada e saída.
 
  
 
