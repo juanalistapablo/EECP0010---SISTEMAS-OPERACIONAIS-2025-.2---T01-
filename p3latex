@@ -1,0 +1,1250 @@
+%  LaTeX support: latex@mdpi.com 
+%  For support, please attach all files needed for compiling as well as the log file, and specify your operating system, LaTeX version, and LaTeX editor.
+
+%=================================================================
+\documentclass[journal,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+%\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+% For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal. Changing "submit" to "accept" before posting will remove line numbers.
+
+% Below journals will use APA reference format:
+% admsci, aieduc, behavsci, businesses, econometrics, economies, education, ejihpe, famsci, games, humans, ijcs, ijfs, journalmedia, jrfm, languages, psycholint, publications, tourismhosp, youth
+
+% Below journals will use Chicago reference format:
+% arts, genealogy, histories, humanities, jintelligence, laws, literature, religions, risks, socsci
+
+%--------------------
+% Class Options:
+%--------------------
+%----------
+% journal
+%----------
+% Choose between the following MDPI journals:
+% accountaudit, acoustics, actuators, addictions, adhesives, admsci, adolescents, aerobiology, aerospace, agriculture, agriengineering, agrochemicals, agronomy, ai, air, algorithms, allergies, alloys, amh, analytica, analytics, anatomia, anesthres, animals, antibiotics, antibodies, antioxidants, applbiosci, appliedchem, appliedmath, appliedphys, applmech, applmicrobiol, applnano, applsci, aquacj, architecture, arm, arthropoda, arts, asc, asi, astronomy, atmosphere, atoms, audiolres, automation, axioms, bacteria, batteries, bdcc, behavsci, beverages, biochem, bioengineering, biologics, biology, biomass, biomechanics, biomed, biomedicines, biomedinformatics, biomimetics, biomolecules, biophysica, biosensors, biosphere, biotech, birds, blockchains, bloods, blsf, brainsci, breath, buildings, businesses, cancers, carbon, cardiogenetics, catalysts, cells, ceramics, challenges, chemengineering, chemistry, chemosensors, chemproc, children, chips, cimb, civileng, cleantechnol, climate, clinbioenerg, clinpract, clockssleep, cmd, cmtr, coasts, coatings, colloids, colorants, commodities, complications, compounds, computation, computers, condensedmatter, conservation, constrmater, cosmetics, covid, crops, cryo, cryptography, crystals, csmf, ctn, curroncol, cyber, dairy, data, ddc, dentistry, dermato, dermatopathology, designs, devices, diabetology, diagnostics, dietetics, digital, disabilities, diseases, diversity, dna, drones, dynamics, earth, ebj, ecm, ecologies, econometrics, economies, education, eesp, ejihpe, electricity, electrochem, electronicmat, electronics, encyclopedia, endocrines, energies, eng, engproc, ent, entomology, entropy, environments, epidemiologia, epigenomes, esa, est, famsci, fermentation, fibers, fintech, fire, fishes, fluids, foods, forecasting, forensicsci, forests, fossstud, foundations, fractalfract, fuels, future, futureinternet, futureparasites, futurepharmacol, futurephys, futuretransp, galaxies, games, gases, gastroent, gastrointestdisord, gastronomy, gels, genealogy, genes, geographies, geohazards, geomatics, geometry, geosciences, geotechnics, geriatrics, glacies, grasses, greenhealth, gucdd, hardware, hazardousmatters, healthcare, hearts, hemato, hematolrep, heritage, higheredu, highthroughput, histories, horticulturae, hospitals, humanities, humans, hydrobiology, hydrogen, hydrology, hygiene, idr, iic, ijerph, ijfs, ijgi, ijmd, ijms, ijns, ijpb, ijt, ijtm, ijtpp, ime, immuno, informatics, information, infrastructures, inorganics, insects, instruments, inventions, iot, j, jal, jcdd, jcm, jcp, jcs, jcto, jdad, jdb, jeta, jfb, jfmk, jimaging, jintelligence, jlpea, jmahp, jmmp, jmms, jmp, jmse, jne, jnt, jof, joitmc, joma, jop, jor, journalmedia, jox, jpbi, jpm, jrfm, jsan, jtaer, jvd, jzbg, kidney, kidneydial, kinasesphosphatases, knowledge, labmed, laboratories, land, languages, laws, life, lights, limnolrev, lipidology, liquids, literature, livers, logics, logistics, lubricants, lymphatics, machines, macromol, magnetism, magnetochemistry, make, marinedrugs, materials, materproc, mathematics, mca, measurements, medicina, medicines, medsci, membranes, merits, metabolites, metals, meteorology, methane, metrics, metrology, micro, microarrays, microbiolres, microelectronics, micromachines, microorganisms, microplastics, microwave, minerals, mining, mmphys, modelling, molbank, molecules, mps, msf, mti, multimedia, muscles, nanoenergyadv, nanomanufacturing, nanomaterials, ncrna, ndt, network, neuroglia, neurolint, neurosci, nitrogen, notspecified, nursrep, nutraceuticals, nutrients, obesities, oceans, ohbm, onco, oncopathology, optics, oral, organics, organoids, osteology, oxygen, parasites, parasitologia, particles, pathogens, pathophysiology, pediatrrep, pets, pharmaceuticals, pharmaceutics, pharmacoepidemiology, pharmacy, philosophies, photochem, photonics, phycology, physchem, physics, physiologia, plants, plasma, platforms, pollutants, polymers, polysaccharides, populations, poultry, powders, preprints, proceedings, processes, prosthesis, proteomes, psf, psych, psychiatryint, psychoactives, psycholint, publications, purification, quantumrep, quaternary, qubs, radiation, reactions, realestate, receptors, recycling, regeneration, religions, remotesensing, reports, reprodmed, resources, rheumato, risks, robotics, rsee, ruminants, safety, sci, scipharm, sclerosis, seeds, sensors, separations, sexes, signals, sinusitis, siuj, skins, smartcities, sna, societies, socsci, software, soilsystems, solar, solids, spectroscj, sports, standards, stats, std, stresses, surfaces, surgeries, suschem, sustainability, symmetry, synbio, systems, tae, targets, taxonomy, technologies, telecom, test, textiles, thalassrep, therapeutics, thermo, timespace, tomography, tourismhosp, toxics, toxins, transplantology, transportation, traumacare, traumas, tropicalmed, universe, urbansci, uro, vaccines, vehicles, venereology, vetsci, vibration, virtualworlds, viruses, vision, waste, water, wem, wevj, wild, wind, women, world, youth, zoonoticdis
+
+%---------
+% article
+%---------
+% The default type of manuscript is "article", but can be replaced by: 
+% abstract, addendum, article, benchmark, book, bookreview, briefcommunication, briefreport, casereport, changes, clinicopathologicalchallenge, comment, commentary, communication, conceptpaper, conferenceproceedings, correction, conferencereport, creative, datadescriptor, discussion, entry, expressionofconcern, extendedabstract, editorial, essay, erratum, fieldguide, hypothesis, interestingimages, letter, meetingreport, monograph, newbookreceived, obituary, opinion, proceedingpaper, projectreport, reply, retraction, review, perspective, protocol, shortnote, studyprotocol, supfile, systematicreview, technicalnote, viewpoint, guidelines, registeredreport, tutorial,  giantsinurology, urologyaroundtheworld
+% supfile = supplementary materials
+
+%----------
+% submit
+%----------
+% The class option "submit" will be changed to "accept" by the Editorial Office when the paper is accepted. This will only make changes to the frontpage (e.g., the logo of the journal will get visible), the headings, and the copyright information. Also, line numbering will be removed. Journal info and pagination for accepted papers will also be assigned by the Editorial Office.
+
+%------------------
+% moreauthors
+%------------------
+% If there is only one author the class option oneauthor should be used. Otherwise use the class option moreauthors.
+
+%---------
+% pdftex
+%---------
+% The option pdftex is for use with pdfLaTeX. Remove "pdftex" for (1) compiling with LaTeX & dvi2pdf (if eps figures are used) or for (2) compiling with XeLaTeX.
+
+%=================================================================
+% MDPI internal commands - do not modify
+\firstpage{1} 
+\makeatletter 
+\setcounter{page}{\@firstpage} 
+\makeatother
+\pubvolume{1}
+\issuenum{1}
+\articlenumber{0}
+\pubyear{2025}
+\copyrightyear{2025}
+%\externaleditor{Firstname Lastname} % More than 1 editor, please add `` and '' before the last editor name
+\datereceived{ } 
+\daterevised{ } % Comment out if no revised date
+\dateaccepted{ } 
+\datepublished{ } 
+%\datecorrected{} % For corrected papers: "Corrected: XXX" date in the original paper.
+%\dateretracted{} % For retracted papers: "Retracted: XXX" date in the original paper.
+\hreflink{https://doi.org/} % If needed use \linebreak
+%\doinum{}
+%\pdfoutput=1 % Uncommented for upload to arXiv.org
+%\CorrStatement{yes}  % For updates
+%\longauthorlist{yes} % For many authors that exceed the left citation part
+%\IsAssociation{yes} % For association journals
+
+%=================================================================
+% Add packages and commands here. The following packages are loaded in our class file: fontenc, inputenc, calc, indentfirst, fancyhdr, graphicx, epstopdf, lastpage, ifthen, float, amsmath, amssymb, lineno, setspace, enumitem, mathpazo, booktabs, titlesec, etoolbox, tabto, xcolor, colortbl, soul, multirow, microtype, tikz, totcount, changepage, attrib, upgreek, array, tabularx, pbox, ragged2e, tocloft, marginnote, marginfix, enotez, amsthm, natbib, hyperref, cleveref, scrextend, url, geometry, newfloat, caption, draftwatermark, seqsplit
+% cleveref: load \crefname definitions after \begin{document}
+
+%=================================================================
+% Please use the following mathematics environments: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, ExamplesandDefinitions, Hypothesis, Remark, Definition, Notation, Assumption
+%% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
+
+%=================================================================
+% Full title of the paper (Capitalized)
+\Title{Soluções Numéricas de Equações Diferenciais}
+
+% MDPI internal command: Title for citation in the left column
+\TitleCitation{Soluções Numéricas de Equações Diferenciais}
+
+% Author Orchid ID: enter ID or remove command
+\newcommand{\orcidauthorA}{0000-0000-0000-000X} % Add \orcidA{} behind the author's name
+%\newcommand{\orcidauthorB}{0000-0000-0000-000X} % Add \orcidB{} behind the author's name
+
+% Authors, for the paper (add full first names)
+\Author{Juan Pablo Mondego $^{1}$\orcidA{}, Firstname Lastname $^{2}$ and Firstname Lastname $^{2,}$*}
+
+%\longauthorlist{yes}
+
+% MDPI internal command: Authors, for metadata in PDF
+\AuthorNames{Firstname Lastname, Firstname Lastname and Firstname Lastname}
+
+% MDPI internal command: Authors, for citation in the left column, only choose below one of them according to the journal style
+% If this is a Chicago style journal 
+% (arts, genealogy, histories, humanities, jintelligence, laws, literature, religions, risks, socsci): 
+% Lastname, Firstname, Firstname Lastname, and Firstname Lastname.
+
+% If this is a APA style journal 
+% (admsci, behavsci, businesses, econometrics, economies, education, ejihpe, games, humans, ijfs, journalmedia, jrfm, languages, psycholint, publications, tourismhosp, youth): 
+% Lastname, F., Lastname, F., \& Lastname, F.
+
+% If this is a ACS style journal (Except for the above Chicago and APA journals, all others are in the ACS format): 
+% Lastname, F.; Lastname, F.; Lastname, F.
+\isAPAStyle{%
+       \AuthorCitation{Lastname, F., Lastname, F., \& Lastname, F.}
+         }{%
+        \isChicagoStyle{%
+        \AuthorCitation{Lastname, Firstname, Firstname Lastname, and Firstname Lastname.}
+        }{
+        \AuthorCitation{Lastname, F.; Lastname, F.; Lastname, F.}
+        }
+}
+
+% Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
+\address{%
+$^{1}$ \quad Contato 1; juan.mondego@discente.ufma.br\\
+$^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
+
+% Contact information of the corresponding author
+\corres{Correspondence: e-mail@e-mail.com; Tel.: (optional; include country code; if there are multiple corresponding authors, add author initials) +xx-xxxx-xxx-xxxx (F.L.)}
+
+% Current address and/or shared authorship
+%\firstnote{Current address: Affiliation.}  
+% Current address should not be the same as any items in the Affiliation section.
+
+%\secondnote{These authors contributed equally to this work.}
+% The commands \thirdnote{} till \eighthnote{} are available for further notes.
+
+%\simplesumm{} % Simple summary
+
+%\conference{} % An extended version of a conference paper
+
+% Abstract (Do not insert blank lines, i.e. \\) 
+\abstract{A resolução numérica de equações não lineares constitui um requisito transversal na modelagem matemática e na engenharia computacional. Este artigo apresenta uma análise estruturada dos métodos iterativos para a determinação de zeros de funções reais, fundamentada nos aspectos teóricos e computacionais propostos por Ruggiero e Lopes. A metodologia exposta abrange desde o isolamento de raízes, o refinamento e a definição de critérios de parada, até a formalização matemática e algorítmica dos métodos da Bisseção, Ponto Fixo, Newton-Raphson e Secante. O estudo propõe a contextualização destes algoritmos através da resolução de equações e, centralmente, estende a discussão para o campo da Inteligência Artificial. O trabalho detalha como a busca por zeros de funções é adaptada para a otimização e minimização de funções de custo em Machine Learning, estabelecendo a conexão teórica entre o método de Newton clássico e os algoritmos de otimização de segunda ordem utilizados no treinamento de redes neurais.}
+
+% Keywords
+\keyword{Cálculo Numérico; Zeros de Funções; Método de Newton-Raphson; Inteligência Artificial.}
+
+% The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
+%\PACS{J0101}
+%\MSC{}
+%\JEL{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Diversity
+%\LSID{\url{http://}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Applied Sciences
+%\featuredapplication{Authors are encouraged to provide a concise description of the specific application or a potential application of the work. This section is not mandatory.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Data
+%\dataset{DOI number or link to the deposited data set if the data set is published separately. If the data set shall be published as a supplement to this paper, this field will be filled by the journal editors. In this case, please submit the data set as a supplement.}
+%\datasetlicense{License under which the data set is made available (CC0, CC-BY, CC-BY-SA, CC-BY-NC, etc.)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal BioTech, Fishes, Neuroimaging and Toxins
+%\keycontribution{The breakthroughs or highlights of the manuscript. Authors can write one or two sentences to describe the most important part of the paper.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Encyclopedia
+%\encyclopediadef{For entry manuscripts only: please provide a brief overview of the entry title instead of an abstract.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Different journals have different requirements. Please check the specific journal guidelines in the "Instructions for Authors" on the journal's official website.
+%\addhighlights{yes}
+%\renewcommand{\addhighlights}{%
+%
+%\noindent The goal is to increase the discoverability and readability of the article via search engines and other scholars. Highlights should not be a copy of the abstract, but a simple text allowing the reader to quickly and simplified find out what the article is about and what can be cited from it. Each of these parts should be devoted up to 2~bullet points.\vspace{3pt}\\
+%\textbf{What are the main findings?}
+% \begin{itemize}[labelsep=2.5mm,topsep=-3pt]
+% \item First bullet.
+% \item Second bullet.
+% \end{itemize}\vspace{3pt}
+%\textbf{What is the implication of the main finding?}
+% \begin{itemize}[labelsep=2.5mm,topsep=-3pt]
+% \item First bullet.
+% \item Second bullet.
+% \end{itemize}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{section}{0} %% Remove this when starting to work on the template.
+%\endnote{This is an endnote.} % To use endnotes, please un-comment \printendnotes below (before References). Only journal Laws uses \footnote.
+
+% The order of the section titles is different for some journals. Please refer to the "Instructions for Authors” on the journal homepage.
+
+\section{Introdução}
+
+As equações não lineares representam um desafio onipresente na modelagem matemática nas ciências naturais e na engenharia, surgindo sempre que relações de proporcionalidade direta deixam de ser suficientes para descrever a realidade. Desde o cálculo de tensões em estruturas complexas até o equilíbrio químico em reatores, a necessidade de determinar valores que satisfaçam a condição $f(x) = 0$ é crucial para o design e análise de sistemas [1]. No entanto, a complexidade dessas funções — frequentemente envolvendo termos transcendentais ou polinômios de grau elevado — torna a obtenção de soluções analíticas exatas impraticável ou impossível. Neste contexto, os métodos numéricos emergem não apenas como uma alternativa, mas como a ferramenta primária para encontrar raízes com a precisão arbitrária necessária [2, 3].
+
+A importância dos métodos numéricos para zeros de funções reside na sua natureza iterativa, capaz de refinar aproximações iniciais grosseiras em resultados de alta precisão computacional. O estado atual da aplicação desses métodos transcende a resolução de equações isoladas, focando intensamente na otimização de sistemas complexos. Publicações recentes destacam que a eficiência desses algoritmos é vital em áreas como *Machine Learning*, onde o treinamento de modelos é matematicamente equivalente a encontrar os zeros do gradiente de uma função de custo de alta dimensionalidade [4]. Embora o poder de processamento tenha crescido, a literatura enfatiza que a escolha inadequada do método pode levar a custos computacionais proibitivos ou à não convergência do algoritmo [5].
+
+Existe, contudo, uma divergência contínua na prática da engenharia quanto à escolha entre métodos de confinamento (intervalares) e métodos abertos. Enquanto alguns autores defendem a robustez dos métodos de confinamento, como a Bisseção, pela garantia matemática de convergência baseada no Teorema de Bolzano, outros argumentam que apenas métodos abertos de ordem superior, como Newton-Raphson, oferecem a velocidade necessária para aplicações em tempo real e grandes volumes de dados [6, 7]. Este trabalho busca esclarecer essas nuances, focando na mecânica fundamental dos algoritmos e em seus critérios de parada.
+
+O objetivo principal deste artigo é apresentar um estudo detalhado dos métodos numéricos para a determinação de raízes e zeros de funções reais, preenchendo a lacuna entre a teoria matemática abstrata e a aplicação computacional moderna. Para tanto, a metodologia adotada segue uma estrutura rigorosa para cada método: (i) formalização matemática do algoritmo e análise de convergência; (ii) demonstração através de exemplos numéricos fundamentais; e (iii) discussão sobre a aplicabilidade prática.
+
+No decorrer deste estudo, examinaremos cinco abordagens clássicas, organizadas logicamente desde as técnicas de confinamento até os métodos abertos de alta precisão: iniciamos com (I) o Método da Bisseção e (II) o Método da Posição Falsa, que garantem a convergência através do isolamento intervalar. Em seguida, exploramos (III) o Método do Ponto Fixo e sua fundamentação teórica, avançando para a eficiência quadrática do (IV) Método de Newton-Raphson e a alternativa numérica do (V) Método da Secante. O trabalho conclui demonstrando como a lógica subjacente a estes algoritmos, especialmente o de Newton, é extrapolada para resolver problemas de otimização em Inteligência Artificial.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Materiais e Métodos}
+
+% --- PREÂMBULO (Coloque isso antes do \begin{document}) ---
+
+
+
+% --- INÍCIO DO CONTEÚDO ---
+
+A aplicação de métodos numéricos para a resolução de equações do tipo $f(x) = 0$ requer uma abordagem sistemática dividida em duas fases: o isolamento das raízes e o refinamento das soluções.
+
+\subsection{Fase I: Isolamento de Raízes}
+
+O objetivo desta fase é determinar um intervalo $[a, b]$ que contenha, com segurança, pelo menos uma raiz real $\xi$. A fundamentação teórica repousa sobre o Teorema de Bolzano, que garante a existência de uma raiz se a função for contínua e apresentar troca de sinal nas extremidades do intervalo, isto é, $f(a) \cdot f(b) < 0$.
+
+Para garantir que a raiz isolada seja \textbf{única} dentro deste intervalo, analisa-se o comportamento da derivada $f'(x)$. Se a derivada preservar o sinal (for estritamente positiva ou negativa) em todo o intervalo, a função é monótona e a raiz é única.
+
+A Figura \ref{fig:derivada_sinal} ilustra geometricamente este conceito.
+\begin{figure}[H]
+    \centering
+
+    % --- Gráfico (a) ---
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=0.42\textwidth,
+            axis lines=middle,
+            xtick=\empty, ytick=\empty,
+            xlabel={$x$}, ylabel={$f(x)$},
+            xmin=-0.5, xmax=3,
+            ymin=-2,   ymax=3,
+            title={(a) $f'(x) > 0$}
+        ]
+            \addplot[thick, smooth, domain=0:2.5]
+                {0.8*(x-1)^3 + (x-1) + 0.5};
+
+            \draw[dashed] (axis cs:0.5,-1.5) -- (axis cs:0.5,0) node[above] {$a$};
+            \draw[dashed] (axis cs:2.0,-1.5) -- (axis cs:2.0,0) node[above] {$b$};
+
+            \node at (axis cs:1.3,-0.7) {$\xi$};
+        \end{axis}
+    \end{tikzpicture}
+    \hfill
+
+    % --- Gráfico (b) ---
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=0.42\textwidth,
+            axis lines=middle,
+            xtick=\empty, ytick=\empty,
+            xlabel={$x$}, ylabel={$f(x)$},
+            xmin=-0.5, xmax=3,
+            ymin=-2,   ymax=3,
+            title={(b) $f'(x) < 0$}
+        ]
+            \addplot[thick, smooth, domain=0:2.5]
+                {-0.8*(x-1)^3 - (x-1) + 0.5};
+
+            \draw[dashed] (axis cs:0.5,-1.5) -- (axis cs:0.5,0) node[above] {$a$};
+            \draw[dashed] (axis cs:2.2,-1.5) -- (axis cs:2.2,0) node[above] {$b$};
+
+            \node at (axis cs:1.4,0.3) {$\xi$};
+        \end{axis}
+    \end{tikzpicture}
+
+    \caption{Comportamento da função e sinal da derivada no intervalo $[a,b]$.}
+    \label{fig:derivada_sinal}
+\end{figure}
+
+
+    \end{tikzpicture}
+
+    \caption{Comportamento da função e unicidade da raiz baseada no sinal da derivada no intervalo $[a, b]$.}
+    \label{fig:derivada_sinal}
+\end{figure}
+
+\subsection{Procedimento de Tabelamento}
+
+Uma técnica robusta para identificar os intervalos de troca de sinal é o tabelamento da função. Considere-se o exemplo da função polinomial $f(x) = x^3 - 9x + 3$. Ao avaliarmos a função em pontos discretos, observamos as variações de sinal que indicam a presença de zeros.
+
+A Tabela \ref{tab:sinais} apresenta os resultados desta avaliação.
+
+\begin{table}[H]
+    \caption{Análise de sinais para isolamento das raízes de $f(x) = x^3 - 9x + 3$.}
+    \label{tab:sinais}
+    \centering
+    % se o tipo C já foi definido no template, use {c*{12}{C}};
+    % caso contrário, pode usar {c*{12}{c}}
+    \begin{tabularx}{\textwidth}{c*{12}{C}}
+        \toprule
+        $x$     & $-\infty$ & $-100$ & $-10$ & $-5$ & \textbf{-3} & $-1$ & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & $4$ & $5$ \\
+        \midrule
+        $f(x)$  & $-$       & $-$    & $-$   & $-$  & \textbf{+}  & $+$  & \textbf{+} & \textbf{$-$} & \textbf{$-$} & \textbf{+} & $+$ & $+$ \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+Com base na Tabela \ref{tab:sinais} e na continuidade da função polinomial, é possível concluir o isolamento de três raízes reais nos seguintes intervalos:
+\begin{enumerate}
+    \item Intervalo $I_1 = [-5, -3]$, onde ocorre a transição de negativo para positivo;
+    \item Intervalo $I_2 = [0, 1]$, onde ocorre a transição de positivo para negativo;
+    \item Intervalo $I_3 = [2, 3]$, onde ocorre a transição de negativo para positivo.
+\end{enumerate}
+
+Uma vez isolados os intervalos, o problema está apto para a aplicação dos métodos de refinamento descritos na sequência deste trabalho.
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\subsection{Fase II: Refinamento de Raízes}
+
+Uma vez determinado o intervalo de isolamento $[a, b]$ que contém a raiz $\xi$, inicia-se a etapa de refinamento. O objetivo desta fase é estreitar esse intervalo sucessivamente até que a aproximação obtida $x_k$ satisfaça uma precisão pré-estabelecida $\epsilon$.
+
+Diferentemente da obtenção de soluções analíticas, o refinamento numérico opera através de processos iterativos. Independentemente do método específico utilizado (Bisseção, Newton-Raphson ou Secante), a estrutura lógica do algoritmo permanece invariante.
+
+A Figura \ref{fig:fluxograma} ilustra o fluxograma geral de um método iterativo para zeros de funções. O processo consiste em partir de uma estimativa inicial (Dados iniciais) e gerar uma sequência $\{x_0, x_1, x_2, \dots, x_k\}$ que converge para a raiz $\xi$.
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[node distance=1.6cm]
+        % Estilos dos blocos
+        \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=2cm, minimum height=0.8cm,text centered, draw=black, fill=white]
+        \tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=white]
+        \tikzstyle{decision} = [diamond, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=white, aspect=2.5]
+        \tikzstyle{arrow} = [thick,->,>=stealth]
+
+        % Nós (Nodes)
+        \node (start) [startstop] {Início};
+        \node (input) [process, below of=start] {Dados iniciais};
+        \node (calc1) [process, below of=input] {Cálculos iniciais};
+        \node (k1) [process, below of=calc1] {k = 1};
+        \node (newaprox) [process, below of=k1] {Calcular a nova aproximação};
+        
+        \node (decide) [decision, below of=newaprox, yshift=-1.0cm] {
+            \begin{tabular}{c}
+                 Essa aproximação \\
+                 está próxima o suficiente \\
+                 da raiz exata?
+            \end{tabular}
+        };
+        
+        \node (calcinter) [process, below of=decide, yshift=-1.2cm] {Cálculos intermediários};
+        \node (kinc) [process, below of=calcinter] {k = k + 1};
+        
+        \node (final) [process, right of=decide, xshift=5cm] {Cálculos finais};
+        \node (stop) [startstop, below of=final] {Fim};
+
+        % Setas (Arrows)
+        \draw [arrow] (start) -- (input);
+        \draw [arrow] (input) -- (calc1);
+        \draw [arrow] (calc1) -- (k1);
+        \draw [arrow] (k1) -- (newaprox);
+        \draw [arrow] (newaprox) -- (decide);
+        
+        % Seta "Sim" (Sair do loop)
+        \draw [arrow] (decide) -- node[anchor=south] {S} (final);
+        \draw [arrow] (final) -- (stop);
+        
+        % Seta "Não" (Continuar loop)
+        \draw [arrow] (decide) -- (calcinter);
+        \draw [arrow] (calcinter) -- (kinc);
+        
+        % Loop de retorno (k = k + 1 -> Calcular nova aproximação)
+        % Desenhando uma linha que sai de baixo, vai para a esquerda, sobe e volta
+        \draw [arrow] (kinc) -- ++(-3.5,0) |- (newaprox);
+
+    \end{tikzpicture}
+    \caption{Fluxograma geral de um processo iterativo para refinamento de raízes.}
+    \label{fig:fluxograma}
+\end{figure}
+
+\subsubsection{Critérios de Parada}
+
+O losango de decisão no fluxograma ("Essa aproximação está próxima o suficiente?") é matematicamente traduzido pelos \textbf{Critérios de Parada}. Como o computador não conhece o valor exato da raiz $\xi$, o erro deve ser estimado. Existem três abordagens principais utilizadas no artigo:
+
+\begin{enumerate}
+    \item \textbf{Erro Absoluto:} Encerra-se o processo quando a distância entre duas iterações consecutivas é menor que a tolerância $\epsilon$:
+    $$ |x_k - x_{k-1}| < \epsilon $$
+    
+    \item \textbf{Erro Relativo:} Utilizado quando a magnitude da raiz é muito grande ou muito pequena, normalizando o erro:
+    $$ \frac{|x_k - x_{k-1}|}{|x_k|} < \epsilon $$
+    
+    \item \textbf{Resíduo da Função:} Verifica quão próximo de zero está o valor da função na aproximação atual:
+    $$ |f(x_k)| < \epsilon $$
+\end{enumerate}
+
+Além destes, impõe-se sempre um número máximo de iterações ($k_{max}$) para evitar que o algoritmo entre em *loop* infinito caso não haja convergência (ramo de retorno à esquerda no fluxograma).
+
+\section{Método da Bisseção}
+
+Após o isolamento da raiz em um intervalo $[a, b]$, aplicam-se métodos iterativos para reduzir a amplitude desse intervalo até que a precisão desejada seja atingida.
+
+O Método da Bisseção é a aplicação direta do Teorema de Bolzano através de um processo de busca binária. É considerado o método mais simples e intuitivo para a resolução de equações não lineares.
+
+\subsubsection{Formalização Matemática e Algoritmo}
+
+Dada uma função $f(x)$ contínua no intervalo $[a, b]$ tal que $f(a) \cdot f(b) < 0$, o método consiste em dividir o intervalo ao meio sucessivamente. A aproximação para a raiz na iteração $k$ é dada pelo ponto médio do intervalo atual:
+
+\begin{equation}
+    x_k = \frac{a_k + b_k}{2}
+\end{equation}
+
+O algoritmo procede da seguinte forma para cada iteração $k$:
+\begin{enumerate}
+    \item Calcula-se $x_k$.
+    \item Verifica-se o sinal do produto $f(a_k) \cdot f(x_k)$:
+    \begin{itemize}
+        \item Se $f(a_k) \cdot f(x_k) < 0$, a raiz está no subintervalo esquerdo. Logo, define-se:
+        $$a_{k+1} = a_k \quad \text{e} \quad b_{k+1} = x_k$$
+        \item Se $f(a_k) \cdot f(x_k) > 0$, a raiz está no subintervalo direito. Logo, define-se:
+        $$a_{k+1} = x_k \quad \text{e} \quad b_{k+1} = b_k$$
+    \end{itemize}
+    \item O processo repete-se até que o critério de parada ($b_{k} - a_{k} < \epsilon$ ou $|f(x_k)| < \epsilon$) seja satisfeito.
+\end{enumerate}
+
+\paragraph{Análise de Convergência:}
+Uma das principais características teóricas da Bisseção é que a amplitude do intervalo é reduzida pela metade a cada passo. O comprimento do intervalo na iteração $k$ é dado por:
+$$ b_k - a_k = \frac{b_0 - a_0}{2^k} $$
+
+Isso permite prever \textit{a priori} o número de iterações $k$ necessárias para atingir uma precisão $\epsilon$. Para garantir que $b_k - a_k < \epsilon$, temos:
+\begin{equation}
+    k > \log_2\left(\frac{b_0 - a_0}{\epsilon}\right)
+\end{equation}
+A convergência é garantida, porém classificada como **linear** e lenta quando comparada a métodos que utilizam derivadas.
+
+\subsubsection{Exemplo Numérico}
+
+Para demonstrar o método, retomamos a função analisada na fase de isolamento:
+$$ f(x) = x^3 - 9x + 3 $$
+Considerando o intervalo isolado $I_2 = [0, 1]$, onde sabemos que $f(0)=3$ e $f(1)=-5$. Vamos realizar 4 iterações.
+
+\begin{table}[H]
+    \centering
+    \caption{Iterações do Método da Bisseção para $f(x) = x^3 - 9x + 3$ em $[0, 1]$}
+    \label{tab:bissecao}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{c|c|c|c|c|c|c}
+            \hline
+            Iter ($k$) & $a_k$ ($f(a_k)$) & $b_k$ ($f(b_k)$) & $x_k$ (Ponto Médio) & $f(x_k)$ & Sinal Intervalo & Erro ($b-a$) \\
+            \hline
+            0 & 0.0000 (+) & 1.0000 (-) & 0.5000 & -1.375 & Mantém $[0, 0.5]$ & 1.0000 \\
+            1 & 0.0000 (+) & 0.5000 (-) & 0.2500 & +0.765 & Mantém $[0.25, 0.5]$ & 0.5000 \\
+            2 & 0.2500 (+) & 0.5000 (-) & 0.3750 & -0.322 & Mantém $[0.25, 0.375]$ & 0.2500 \\
+            3 & 0.2500 (+) & 0.3750 (-) & 0.3125 & +0.223 & Mantém $[0.3125, 0.375]$ & 0.1250 \\
+            4 & 0.3125 (+) & 0.3750 (-) & 0.3437 & -0.050 & - & 0.0625 \\
+            \hline
+        \end{tabular}%
+    }
+\end{table}
+
+Observa-se na Tabela \ref{tab:bissecao} que, na iteração 4, o valor de $f(x_k)$ já está próximo de zero (-0.050), e o intervalo que contém a raiz foi reduzido de 1.0 para 0.0625.
+
+\subsubsection{Discussão sobre a Aplicabilidade Prática}
+
+A análise crítica do Método da Bisseção revela um \textit{trade-off} importante na engenharia computacional:
+
+\begin{itemize}
+    \item \textbf{Vantagens (Robustez):} É um método globalmente convergente. Se o isolamento inicial (Fase I) respeitar o Teorema de Bolzano, o método \textbf{jamais diverge}, independentemente da forma da função (desde que contínua). Isso o torna ideal para sistemas críticos onde a estabilidade é prioritária sobre a velocidade.
+    
+    \item \textbf{Desvantagens (Velocidade):} A convergência é lenta. Para ganhar uma casa decimal de precisão (reduzir o erro por um fator de 10), são necessárias aproximadamente 3 a 4 iterações ($\log_2 10 \approx 3.32$). Em simulações de alta performance ou tempo real, esse custo computacional pode ser proibitivo.
+    
+    \item \textbf{Uso Recomendado:} Na prática, a Bisseção é frequentemente utilizada como um "procedimento de partida". Utiliza-se a Bisseção por algumas iterações para aproximar a raiz e garantir estabilidade, e então troca-se para o Método de Newton-Raphson para finalizar o refinamento com alta velocidade.
+\end{itemize}
+\section{Método da Secante}
+
+O Método da Secante surge como uma alternativa numérica robusta ao Método de Newton-Raphson. Em muitas aplicações práticas de engenharia, a função $f(x)$ pode ser complexa a ponto de tornar a obtenção analítica de sua derivada $f'(x)$ difícil ou computacionalmente custosa. A Secante contorna este problema aproximando a derivada por um quociente de diferenças finitas.
+
+\subsubsection{Formalização Matemática}
+
+Enquanto o método de Newton utiliza a reta tangente ao ponto $x_k$ para estimar a raiz, o método da Secante utiliza a reta que intercepta (secante) dois pontos das iterações anteriores: $(x_{k-1}, f(x_{k-1}))$ e $(x_k, f(x_k))$.
+
+Substituindo a derivada $f'(x_k)$ na fórmula de Newton pela aproximação diferencial:
+$$ f'(x_k) \approx \frac{f(x_k) - f(x_{k-1})}{x_k - x_{k-1}} $$
+
+Obtemos a fórmula iterativa do Método da Secante:
+
+\begin{equation}
+    x_{k+1} = x_k - \frac{f(x_k) \cdot (x_k - x_{k-1})}{f(x_k) - f(x_{k-1})}
+\end{equation}
+
+Uma característica distinta deste algoritmo é a necessidade de **duas** aproximações iniciais, $x_0$ e $x_1$, para dar partida ao processo iterativo.
+
+\paragraph{Análise de Convergência:}
+A ordem de convergência da Secante é superlinear, com expoente $\alpha \approx 1.618$ (a Razão Áurea). Isso significa que ela é mais rápida que a Bisseção (linear, $\alpha=1$), porém ligeiramente mais lenta que o método de Newton (quadrático, $\alpha=2$). Contudo, como cada iteração da Secante exige apenas uma avaliação de função $f(x)$ — contra duas do Newton ($f$ e $f'$) — o custo computacional total pode ser menor.
+
+\subsubsection{Exemplo Numérico}
+
+Aplicando o método à mesma função $f(x) = x^3 - 9x + 3$. Para iniciar, utilizaremos os extremos do intervalo isolado na Fase I como pontos iniciais: $x_0 = 0$ e $x_1 = 1$.
+
+\begin{table}[H]
+    \centering
+    \caption{Iterações do Método da Secante para $f(x) = x^3 - 9x + 3$}
+    \label{tab:secante}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{c|c|c|c|c|c}
+            \hline
+            $k$ & $x_{k-1}$ & $x_k$ & $f(x_k)$ & $x_{k+1}$ (Estimativa) & Erro Relativo Aprox. \\
+            \hline
+            1 & 0.0000 & 1.0000 & -5.0000 & \textbf{0.3750} & - \\
+            2 & 1.0000 & 0.3750 & -0.3223 & \textbf{0.3319} & $1.29 \times 10^{-1}$ \\
+            3 & 0.3750 & 0.3319 & -0.0196 & \textbf{0.3377} & $1.72 \times 10^{-2}$ \\
+            4 & 0.3319 & 0.3377 & +0.0009 & \textbf{0.3376} & $2.96 \times 10^{-4}$ \\
+            \hline
+        \end{tabular}%
+    }
+\end{table}
+
+Analisando a Tabela \ref{tab:secante}, observa-se a eficiência do método. Com apenas 4 iterações, chegamos a $x \approx 0.3376$ com $f(x) \approx 0.0009$. Comparativamente, a Bisseção precisaria de mais iterações para atingir magnitude de erro semelhante.
+
+\subsubsection{Discussão sobre a Aplicabilidade Prática}
+
+O Método da Secante ocupa um lugar estratégico no arsenal de ferramentas numéricas:
+
+\begin{itemize}
+    \item \textbf{Vantagem Principal:} Elimina a necessidade de derivar a função. Isso é crucial em aplicações de "Caixa Preta" (Black Box), onde $f(x)$ é o resultado de uma simulação complexa e não uma fórmula algébrica conhecida.
+    
+    \item \textbf{Risco de Instabilidade Numérica:} O denominador da fórmula contém a diferença $f(x_k) - f(x_{k-1})$. Se os valores da função forem muito próximos (o que acontece perto da raiz), pode ocorrer cancelamento catastrófico ou divisão por zero, degradando a precisão ou travando o algoritmo.
+    
+    \item \textbf{Generalização:} Em sistemas multidimensionais (sistemas de equações não lineares), a generalização da Secante é conhecida como \textbf{Método de Broyden}, amplamente utilizado por evitar o cálculo da Matriz Jacobiana a cada passo.
+\end{itemize}
+\section{Método de Newton-Raphson}
+
+O Método de Newton-Raphson (ou simplesmente Método de Newton) é amplamente reconhecido como o algoritmo mais eficiente para a determinação de raízes de funções reais, desde que a derivada da função seja conhecida e computável. Diferente dos métodos de confinamento, é um método aberto que utiliza informações sobre a inclinação (tangente) da curva para projetar a próxima aproximação.
+
+\subsubsection{Formalização Matemática}
+
+Geometricamente, o método consiste em aproximar a função $f(x)$ por sua reta tangente no ponto atual $x_k$. A intersecção desta tangente com o eixo das abscissas fornece a nova estimativa $x_{k+1}$.
+
+Analiticamente, essa fórmula é derivada da expansão em Série de Taylor de primeira ordem em torno de $x_k$:
+$$ f(x) \approx f(x_k) + f'(x_k)(x - x_k) $$
+
+Igualando a aproximação a zero para encontrar a raiz ($f(x)=0$) e isolando $x$, obtemos a fórmula iterativa fundamental:
+
+\begin{equation}
+    x_{k+1} = x_k - \frac{f(x_k)}{f'(x_k)}
+\end{equation}
+
+\paragraph{Análise de Convergência:}
+A principal virtude deste método é sua taxa de convergência **quadrática** ($\alpha = 2$). Isso significa, intuitivamente, que o número de casas decimais corretas dobra a cada iteração, desde que a aproximação inicial $x_0$ esteja suficientemente próxima da raiz e $f'(x) \neq 0$. Em termos de erro, temos a relação assintótica:
+$$ |e_{k+1}| \approx C \cdot |e_k|^2 $$
+
+\subsubsection{Exemplo Numérico}
+
+Aplicamos o método à função padrão deste estudo:
+$$ f(x) = x^3 - 9x + 3 $$
+Cuja derivada analítica é:
+$$ f'(x) = 3x^2 - 9 $$
+
+Como ponto de partida, escolhemos $x_0 = 0.5$, um valor central no intervalo de isolamento $[0, 1]$.
+
+\begin{table}[H]
+    \centering
+    \caption{Iterações do Método de Newton-Raphson para $f(x) = x^3 - 9x + 3$}
+    \label{tab:newton}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{c|c|c|c|c|c}
+            \hline
+            Iter ($k$) & $x_k$ & $f(x_k)$ & $f'(x_k)$ & Passo ($-\frac{f}{f'}$) & Erro Relativo Aprox. \\
+            \hline
+            0 & 0.500000 & -1.375000 & -8.250000 & -0.166667 & - \\
+            1 & 0.333333 & +0.037037 & -8.666667 & +0.004273 & $5.00 \times 10^{-1}$ \\
+            2 & 0.337607 & +0.000006 & -8.658054 & +0.000001 & $1.26 \times 10^{-2}$ \\
+            3 & \textbf{0.337609} & $\approx 0$ & -8.658051 & $0$ & $2.03 \times 10^{-6}$ \\
+            \hline
+        \end{tabular}%
+    }
+\end{table}
+
+A Tabela \ref{tab:newton} demonstra dramaticamente a superioridade da convergência quadrática. Enquanto a Bisseção reduziu o intervalo para apenas 0.06 após 4 iterações, o método de Newton atingiu a precisão de 6 casas decimais na iteração $k=3$.
+
+\subsubsection{Discussão sobre a Aplicabilidade Prática}
+
+O Método de Newton é o padrão-ouro em otimização numérica, mas sua aplicação exige cautela:
+
+\begin{itemize}
+    \item \textbf{Eficiência Extrema:} A convergência quadrática torna-o a escolha preferencial para aplicações de alta precisão e tempo real, onde o custo computacional de calcular $f'(x)$ é compensado pela redução drástica no número de iterações.
+    
+    \item \textbf{Limitações Locais:} O método não garante convergência global. Se o ponto inicial $x_0$ for escolhido próximo a um ponto de inflexão ou onde $f'(x) \approx 0$ (tangente horizontal), o método pode divergir violentamente ("shoot off") ou entrar em ciclos oscilatórios.
+    
+    \item \textbf{Conexão com Inteligência Artificial:} Este método é a base teórica para algoritmos de **Otimização de Segunda Ordem** em *Machine Learning*. No treinamento de Redes Neurais, minimizar a função de custo $L(w)$ equivale a encontrar os zeros de seu gradiente ($\nabla L = 0$). A aplicação generalizada de Newton (substituindo $1/f'$ pela inversa da Matriz Hessiana $H^{-1}$) oferece o caminho mais direto para o mínimo global, embora métodos como BFGS (Quasi-Newton) sejam preferidos para evitar o custo computacional da inversão matricial.
+    
+\end{itemize}
+\section{Método da Posição Falsa}
+
+\subsubsection{Formalização Matemática}
+
+O Método da Posição Falsa, combina a robustez dos métodos intervalares (como a Bisseção) com uma convergência geralmente superior, aproximando a raiz pela interseção da secante com o eixo das abscissas.
+
+Seja um intervalo $[a,b]$ tal que $f(a)\cdot f(b)<0$, garantindo a existência de uma raiz pela continuidade de $f$. A cada iteração define-se a aproximação $x_k$ como o ponto em que a secante entre $(a,f(a))$ e $(b,f(b))$ intercepta o eixo $x$. A abscissa desse ponto é dada por:
+
+\begin{equation}
+x_k = \frac{a\,f(b) - b\,f(a)}{f(b)-f(a)}
+\tag{7}
+\end{equation}
+
+Após o cálculo de $x_k$, determina-se o novo subintervalo a partir do sinal do produto:
+
+\begin{itemize}
+    \item Se $f(a)\cdot f(x_k)<0$, então a raiz está em $[a,x_k]$ e define-se $b = x_k$.
+    \item Caso contrário, a raiz está em $[x_k,b]$ e define-se $a = x_k$.
+\end{itemize}
+
+O processo prossegue até que um dos critérios de parada seja satisfeito:
+\begin{enumerate}
+    \item erro absoluto: $|b - a| < \varepsilon$, ou
+    \item resíduo: $|f(x_k)| < \varepsilon$.
+\end{enumerate}
+
+A fundamentação gráfica do método é ilustrada pela Figura~\ref{fig:}, em que a secante aproxima progressivamente a raiz.
+
+\begin{figure}[H]
+    \centering
+    \caption{Interpretação geométrica do Método da Posição Falsa.}
+    \label{fig:placeholder}
+\begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{WhatsApp Image 2025-11-29 at 20.53.43.jpeg}
+        \caption{Enter Caption}
+        \label{fig:placeholder}
+    \end{figure}
+        % \includegraphics[width=0.7\textwidth]{figura5.png}
+    \small Fonte: Ruggiero e Lopes (1996).
+\end{figure}
+
+A convergência é garantida sempre que $f$ for contínua e houver troca de sinais em $[a,b]$. Entretanto, caso a função apresente concavidade acentuada, uma das extremidades pode ``ficar presa'', reduzindo a taxa de convergência a um comportamento semelhante ao da Bisseção.
+
+\subsubsection{Exemplo Numérico}
+
+Considere a função:
+
+\begin{equation}
+f(x) = x^3 - 9x + 3
+\tag{8}
+\end{equation}
+
+No intervalo isolado $[0,1]$, tem-se $f(0)=3$ e $f(1)=-5$, garantindo $f(0)\cdot f(1)<0$.
+
+A Tabela~\ref{tab:posfalsa} apresenta as quatro primeiras iterações do método.
+
+\begin{table}[H]
+\centering
+\caption{Iterações do Método da Posição Falsa para $f(x)=x^3 - 9x + 3$.}
+\label{tab:posfalsa}
+\begin{tabular}{c|c|c|c|c|c|c|c|c}
+\hline
+Iter. $k$ & $a_k$ & $f(a_k)$ & $b_k$ & $f(b_k)$ & $x_k$ & $f(x_k)$ & Novo intervalo & Erro $|b-a|$ \\
+\hline
+1 & 0.0000 & +3.0000 & 1.0000 & −5.0000 & 0.3750 & −0.3220 & $[0,\,0.3750]$ & 1.0000 \\
+2 & 0.0000 & +3.0000 & 0.3750 & −0.3220 & 0.3386 & −0.0586 & $[0,\,0.3386]$ & 0.3750 \\
+3 & 0.0000 & +3.0000 & 0.3386 & −0.0586 & 0.3377 & −0.0197 & $[0,\,0.3377]$ & 0.3386 \\
+4 & 0.0000 & +3.0000 & 0.3377 & −0.0197 & 0.3376 & +0.0009 & $[0.3376,\,0.3377]$ & 0.3377 \\
+\hline
+\end{tabular}
+\end{table}
+
+Observa-se que a sequência converge rapidamente para a raiz real:
+
+\[
+\xi \approx 0.3376
+\]
+
+\subsubsection{Discussão sobre a Aplicabilidade Prática}
+
+\textbf{Vantagens}
+\begin{itemize}
+    \item É mais rápido que a Bisseção na maioria das funções suaves.
+    \item Mantém a garantia de convergência, já que o intervalo sempre preserva a troca de sinais.
+    \item Aproxima a raiz por meio de informações lineares da função (secante), sem exigir derivadas.
+\end{itemize}
+
+\textbf{Desvantagens}
+\begin{itemize}
+    \item Pode convergir lentamente quando a função apresenta forte concavidade.
+    \item A convergência é tipicamente linear, inferior à Secante e ao Método de Newton.
+\end{itemize}
+
+\textbf{Aplicações Ideais}
+\begin{itemize}
+    \item Sistemas que exigem rigor matemático de convergência.
+    \item Simulações físicas e problemas de engenharia que dependem de estabilidade intervalar.
+\end{itemize}
+
+\textbf{Limitações}
+\begin{itemize}
+    \item Não explora curvatura da função.
+    \item Pode apresentar ``travamento'' de uma extremidade.
+\end{itemize}
+
+\textbf{Comparação com Outros Métodos}
+\begin{itemize}
+    \item Mais seguro que Secante e Newton, porém menos eficiente.
+    \item Útil como método híbrido: após estabilizar o intervalo, pode-se migrar para Secante ou Newton.
+\end{itemize}
+
+\section{Método do Ponto Fixo}
+
+\subsubsection{Formalização Matemática}
+
+O Método do Ponto Fixo consiste em reescrever a equação:
+
+\[
+f(x) = 0
+\]
+
+em uma forma equivalente:
+
+\begin{equation}
+x = \phi(x)
+\tag{9}
+\end{equation}
+
+Uma raiz $\xi$ é ponto fixo da função $\phi$ se:
+
+\begin{equation}
+\phi(\xi) = \xi
+\tag{10}
+\end{equation}
+
+Define-se a sequência iterativa:
+
+\begin{equation}
+x_{k+1} = \phi(x_k)
+\tag{11}
+\end{equation}
+
+O teorema fundamental do ponto fixo garante convergência se:
+
+\begin{equation}
+|\phi'(x)| \le M < 1,\quad \forall x \in I
+\tag{12}
+\end{equation}
+
+Ou seja, $\phi$ deve ser uma função de contração no intervalo.
+
+\subsubsection{Exemplo Numérico}
+
+Seja:
+
+\begin{equation}
+f(x) = x^2 - x - 2
+\tag{13}
+\end{equation}
+
+Reescrevendo-a como ponto fixo:
+
+\begin{equation}
+x = \phi(x) = \sqrt{x+2}
+\tag{14}
+\end{equation}
+
+Derivando:
+
+\begin{equation}
+\phi'(x) = \frac{1}{2\sqrt{x+2}}
+\tag{15}
+\end{equation}
+
+Avaliada na raiz positiva $\xi = 2$:
+
+\begin{equation}
+|\phi'(2)| = 0.25 < 1
+\tag{16}
+\end{equation}
+
+Logo, a convergência está garantida.
+
+Tomando $x_0 = 4$, obtemos:
+
+\begin{table}[H]
+\centering
+\caption{Iterações do Método do Ponto Fixo.}
+\label{tab:mpf}
+\begin{tabular}{c|c}
+\hline
+Iteração $k$ & $x_k$ \\
+\hline
+0 & 4.0000 \\
+1 & 2.4490 \\
+2 & 2.1091 \\
+3 & 2.0271 \\
+4 & 2.0067 \\
+\hline
+\end{tabular}
+\end{table}
+
+A sequência converge monotonicamente para:
+
+\[
+x_k \to 2
+\]
+
+\subsubsection{Discussão sobre a Aplicabilidade Prática}
+
+\textbf{Vantagens}
+\begin{itemize}
+    \item Estrutura simples e baixo custo computacional.
+    \item Não exige cálculo de derivadas.
+    \item Serve como base conceitual para métodos mais sofisticados.
+\end{itemize}
+
+\textbf{Desvantagens}
+\begin{itemize}
+    \item A convergência depende criticamente da escolha de $\phi(x)$.
+    \item Pode divergir mesmo quando a equação possui solução.
+    \item Convergência linear na maior parte dos casos.
+\end{itemize}
+
+\textbf{Aplicações Ideais}
+\begin{itemize}
+    \item Situações em que a construção de uma função de iteração seja natural.
+    \item Estudos teóricos de estabilidade e contração.
+\end{itemize}
+
+\textbf{Limitações}
+\begin{itemize}
+    \item Pouco eficiente para alta precisão.
+    \item Pode oscilar ou divergir se $|\phi'(x)|>1$.
+\end{itemize}
+
+\textbf{Comparação com Outros Métodos}
+\begin{itemize}
+    \item Menos eficiente que Secante e Newton.
+    \item Mais simples conceitualmente.
+    \item Frequentemente usado com fins pedagógicos.
+\end{itemize}
+
+
+
+\section{Results}
+
+This section may be divided by . It should provide a concise and precise description of the experimental results, their interpretation, as well as the experimental conclusions that can be drawn.
+\subsection{Subsection}
+\subsubsection{Subsubsection}
+
+Bulleted lists look like this:
+\begin{itemize}
+\item	First bullet;
+\item	Second bullet;
+\item	Third bullet.
+\end{itemize}
+
+Numbered lists can be added as follows:
+\begin{enumerate}
+\item	First item; 
+\item	Second item;
+\item	Third item.
+\end{enumerate}
+
+The text continues here.
+
+\subsection{Figures, Tables and Schemes}
+
+All figures and tables should be cited in the main text as Figure~\ref{fig1}, Table~\ref{tab1}, etc.
+
+\begin{figure}[H]
+%\isPreprints{\centering}{} % Only used for preprints
+\includegraphics[width=4.0 cm]{Definitions/logo-mdpi}
+\caption{This is a figure. Schemes follow the same formatting.\label{fig1}}
+\end{figure}   
+\unskip
+
+\begin{table}[H] 
+%\small % Change table font size
+\caption{This is a table caption. Tables should be placed in the main text near to the first time they are~cited.\label{tab1}}
+%\isPreprints{\centering}{} % Only used for preprints
+\begin{tabularx}{\textwidth}{CCC}
+\toprule
+\textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}\\
+\midrule
+Entry 1		& Data			& Data\\
+Entry 2		& Data			& Data \textsuperscript{1}\\
+\bottomrule
+\end{tabularx}
+
+\noindent{\footnotesize{\textsuperscript{1} Tables may have a footer.}}
+\end{table}
+
+The text continues here (Figure~\ref{fig2} and Table~\ref{tab2}).
+
+% Example of a figure that spans the whole page width and with subfigures. The same concept works for tables, too.
+\begin{figure}[H]
+%\isPreprints{}{% This command is only used for ``preprints''.
+\begin{adjustwidth}{-\extralength}{0cm}
+\centering
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+\subfloat[\centering]{\includegraphics[width=7.0cm]{Definitions/logo-mdpi}}
+%\hfill
+\subfloat[\centering]{\includegraphics[width=7.0cm]{Definitions/logo-mdpi}}\\
+\subfloat[\centering]{\includegraphics[width=7.0cm]{Definitions/logo-mdpi}}
+%\hfill
+\subfloat[\centering]{\includegraphics[width=7.0cm]{Definitions/logo-mdpi}}
+%\isPreprints{}{% This command is only used for ``preprints''.
+\end{adjustwidth}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+\caption{This is a wide figure. Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. (\textbf{c}) Description of what is contained in the third panel. (\textbf{d}) Description of what is contained in the fourth panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.\label{fig2}}
+\end{figure} 
+
+\begin{table}[H]
+\caption{This is a wide table.\label{tab2}}
+%\isPreprints{\centering}{% This command is only used for ``preprints''.
+	\begin{adjustwidth}{-\extralength}{0cm}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+%\isPreprints{\begin{tabularx}{\textwidth}{CCCC}}{% This command is only used for ``preprints''.
+		\begin{tabularx}{\fulllength}{CCCC}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+			\toprule
+			\textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}     & \textbf{Title 4}\\
+			\midrule
+\multirow[m]{3}{*}{Entry 1 *}	& Data			& Data			& Data\\
+			  	                   & Data			& Data			& Data\\
+			             	      & Data			& Data			& Data\\
+                   \midrule
+\multirow[m]{3}{*}{Entry 2}    & Data			& Data			& Data\\
+			  	                  & Data			& Data			& Data\\
+			             	     & Data			& Data			& Data\\
+			\bottomrule
+		\end{tabularx}
+%		\isPreprints{}{% This command is only used for ``preprints''.
+	\end{adjustwidth}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+	\noindent{\footnotesize{* Tables may have a footer.}}
+\end{table}
+
+%\begin{listing}[H]
+%\caption{Title of the listing}
+%\rule{\columnwidth}{1pt}
+%\raggedright Text of the listing. In font size footnotesize, small, or normalsize. Preferred format: left aligned and single spaced. Preferred border format: top border line and bottom border line.
+%\rule{\columnwidth}{1pt}
+%\end{listing}
+
+Text.
+
+Text.
+
+\subsection{Formatting of Mathematical Components}
+
+This is the example 1 of equation:
+\begin{linenomath}
+\begin{equation}
+a = 1,
+\end{equation}
+\end{linenomath}
+the text following an equation need not be a new paragraph. Please punctuate equations as regular text.
+%% If the documentclass option "submit" is chosen, please insert a blank line before and after any math environment (equation and eqnarray environments). This ensures correct linenumbering. The blank line should be removed when the documentclass option is changed to "accept" because the text following an equation should not be a new paragraph.
+
+This is the example 2 of equation:
+%\isPreprints{}{% This command is only used for ``preprints''.
+\begin{adjustwidth}{-\extralength}{0cm}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+\begin{equation}
+a = b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z
+\end{equation}
+%\isPreprints{}{% This command is only used for ``preprints''.
+\end{adjustwidth}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+
+%% Example of a page in landscape format (with table and table footnote).
+%\startlandscape
+%\begin{table}[H] %% Table in wide page
+%%\isPreprints{\centering}{} % This command is only used for ``preprints''.
+%\caption{This is a very wide table.\label{tab3}}
+%	\begin{tabularx}{\textwidth}{CCCC}
+%		\toprule
+%		\textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}	& \textbf{Title 4}\\
+%		\midrule
+%		Entry 1		& Data			& Data			& This cell has some longer content that runs over two lines.\\
+%		Entry 2		& Data			& Data			& Data\textsuperscript{1}\\
+%		\bottomrule
+%	\end{tabularx}
+%%\isPreprints{}{% This command is only used for ``preprints''.
+%	\begin{adjustwidth}{+\extralength}{0cm}
+%%} % If the paper is ``preprints'', please uncomment this parenthesis.
+%		\noindent\footnotesize{\textsuperscript{1} This is a table footnote.}
+%%\isPreprints{}{% This command is only used for ``preprints''.
+%	\end{adjustwidth}
+%%} % If the paper is ``preprints'', please uncomment this parenthesis.
+%\end{table}
+%\finishlandscape
+
+Please punctuate equations as regular text. Theorem-type environments (including propositions, lemmas, corollaries etc.) can be formatted as follows:
+%% Example of a theorem:
+\begin{Theorem}
+Example text of a theorem.
+\end{Theorem}
+
+The text continues here. Proofs must be formatted as follows:
+
+%% Example of a proof:
+\begin{proof}[Proof of Theorem 1]
+Text of the proof. Note that the phrase ``of Theorem 1'' is optional if it is clear which theorem is being referred to.
+\end{proof}
+The text continues here.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+
+Authors should discuss the results and how they can be interpreted from the perspective of previous studies and of the working hypotheses. The findings and their implications should be discussed in the broadest context possible. Future research directions may also be highlighted.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+
+This section is not mandatory, but can be added to the manuscript if the discussion is unusually long or complex.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Patents}
+
+This section is not mandatory, but may be added if there are patents resulting from the work reported in this manuscript.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{6pt} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% optional
+%\supplementary{The following supporting information can be downloaded at:  \linksupplementary{s1}, Figure S1: title; Table S1: title; Video S1: title.}
+
+% Only for journal Methods and Protocols:
+% If you wish to submit a video article, please do so with any other supplementary material.
+% \supplementary{The following supporting information can be downloaded at: \linksupplementary{s1}, Figure S1: title; Table S1: title; Video S1: title. A supporting video article is available at doi: link.}
+
+% Only used for preprtints:
+% \supplementary{The following supporting information can be downloaded at the website of this paper posted on \href{https://www.preprints.org/}{Preprints.org}.}
+
+% Only for journal Hardware:
+% If you wish to submit a video article, please do so with any other supplementary material.
+% \supplementary{The following supporting information can be downloaded at: \linksupplementary{s1}, Figure S1: title; Table S1: title; Video S1: title.\vspace{6pt}\\
+%\begin{tabularx}{\textwidth}{lll}
+%\toprule
+%\textbf{Name} & \textbf{Type} & \textbf{Description} \\
+%\midrule
+%S1 & Python script (.py) & Script of python source code used in XX \\
+%S2 & Text (.txt) & Script of modelling code used to make Figure X \\
+%S3 & Text (.txt) & Raw data from experiment X \\
+%S4 & Video (.mp4) & Video demonstrating the hardware in use \\
+%... & ... & ... \\
+%\bottomrule
+%\end{tabularx}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\authorcontributions{For research articles with several authors, a short paragraph specifying their individual contributions must be provided. The following statements should be used ``Conceptualization, X.X. and Y.Y.; methodology, X.X.; software, X.X.; validation, X.X., Y.Y. and Z.Z.; formal analysis, X.X.; investigation, X.X.; resources, X.X.; data curation, X.X.; writing---original draft preparation, X.X.; writing---review and editing, X.X.; visualization, X.X.; supervision, X.X.; project administration, X.X.; funding acquisition, Y.Y. All authors have read and agreed to the published version of the manuscript.'', please turn to the  \href{http://img.mdpi.org/data/contributor-role-instruction.pdf}{CRediT taxonomy} for the term explanation. Authorship must be limited to those who have contributed substantially to the work~reported.}
+
+\funding{Please add: ``This research received no external funding'' or ``This research was funded by NAME OF FUNDER grant number XXX.'' and  and ``The APC was funded by XXX''. Check carefully that the details given are accurate and use the standard spelling of funding agency names at \url{https://search.crossref.org/funding}, any errors may affect your future funding.}
+
+\institutionalreview{In this section, you should add the Institutional Review Board Statement and approval number, if relevant to your study. You might choose to exclude this statement if the study did not require ethical approval. Please note that the Editorial Office might ask you for further information. Please add “The study was conducted in accordance with the Declaration of Helsinki, and approved by the Institutional Review Board (or Ethics Committee) of NAME OF INSTITUTE (protocol code XXX and date of approval).” for studies involving humans. OR “The animal study protocol was approved by the Institutional Review Board (or Ethics Committee) of NAME OF INSTITUTE (protocol code XXX and date of approval).” for studies involving animals. OR “Ethical review and approval were waived for this study due to REASON (please provide a detailed justification).” OR “Not applicable” for studies not involving humans or animals.}
+
+\informedconsent{Any research article describing a study involving humans should contain this statement. Please add ``Informed consent was obtained from all subjects involved in the study.'' OR ``Patient consent was waived due to REASON (please provide a detailed justification).'' OR ``Not applicable'' for studies not involving humans. You might also choose to exclude this statement if the study did not involve humans.
+
+Written informed consent for publication must be obtained from participating patients who can be identified (including by the patients themselves). Please state ``Written informed consent has been obtained from the patient(s) to publish this paper'' if applicable.}
+
+\dataavailability{We encourage all authors of articles published in MDPI journals to share their research data. In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Where no new data were created, or where data is unavailable due to privacy or ethical restrictions, a statement is still required. Suggested Data Availability Statements are available in section ``MDPI Research Data Policies'' at \url{https://www.mdpi.com/ethics}.} 
+
+% Only for journal Drones
+%\durcstatement{Current research is limited to the [please insert a specific academic field, e.g., XXX], which is beneficial [share benefits and/or primary use] and does not pose a threat to public health or national security. Authors acknowledge the dual-use potential of the research involving xxx and confirm that all necessary precautions have been taken to prevent potential misuse. As an ethical responsibility, authors strictly adhere to relevant national and international laws about DURC. Authors advocate for responsible deployment, ethical considerations, regulatory compliance, and transparent reporting to mitigate misuse risks and foster beneficial outcomes.}
+
+% Only for journal Nursing Reports
+%\publicinvolvement{Please describe how the public (patients, consumers, carers) were involved in the research. Consider reporting against the GRIPP2 (Guidance for Reporting Involvement of Patients and the Public) checklist. If the public were not involved in any aspect of the research add: ``No public involvement in any aspect of this research''.}
+%
+%% Only for journal Nursing Reports
+%\guidelinesstandards{Please add a statement indicating which reporting guideline was used when drafting the report. For example, ``This manuscript was drafted against the XXX (the full name of reporting guidelines and citation) for XXX (type of research) research''. A complete list of reporting guidelines can be accessed via the equator network: \url{https://www.equator-network.org/}.}
+%
+%% Only for journal Nursing Reports
+%\useofartificialintelligence{Please describe in detail any and all uses of artificial intelligence (AI) or AI-assisted tools used in the preparation of the manuscript. This may include, but is not limited to, language translation, language editing and grammar, or generating text. Alternatively, please state that “AI or AI-assisted tools were not used in drafting any aspect of this manuscript”.}
+
+\acknowledgments{In this section you can acknowledge any support given which is not covered by the author contribution or funding sections. This may include administrative and technical support, or donations in kind (e.g., materials used for experiments). Where GenAI has been used for purposes such as generating text, data, or graphics, or for study design, data collection, analysis, or interpretation of data, please add “During the preparation of this manuscript/study, the author(s) used [tool name, version information] for the purposes of [description of use]. The authors have reviewed and edited the output and take full responsibility for the content of this publication.”}
+
+\conflictsofinterest{Declare conflicts of interest or state ``The authors declare no conflicts of interest.'' Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript; or in the decision to publish the results must be declared in this section. If there is no role, please state ``The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results''.} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Optional
+
+%% Only for journal Encyclopedia
+%\entrylink{The Link to this entry published on the encyclopedia platform.}
+
+\abbreviations{Abbreviations}{
+The following abbreviations are used in this manuscript:
+\\
+
+\noindent 
+\begin{tabular}{@{}ll}
+MDPI & Multidisciplinary Digital Publishing Institute\\
+DOAJ & Directory of open access journals\\
+TLA & Three letter acronym\\
+LD & Linear dichroism
+\end{tabular}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Optional
+\appendixtitles{no} % Leave argument "no" if all appendix headings stay EMPTY (then no dot is printed after "Appendix A"). If the appendix sections contain a heading then change the argument to "yes".
+\appendixstart
+\appendix
+\section[\appendixname~\thesection]{}
+\subsection[\appendixname~\thesubsection]{}
+The appendix is an optional section that can contain details and data supplemental to the main text---for example, explanations of experimental details that would disrupt the flow of the main text but nonetheless remain crucial to understanding and reproducing the research shown; figures of replicates for experiments of which representative data are shown in the main text can be added here if brief, or as Supplementary Data. Mathematical proofs of results not central to the paper can be added as an appendix.
+
+\begin{table}[H] 
+\caption{This is a table caption.\label{tab5}}
+%\newcolumntype{C}{>{\centering\arraybackslash}X}
+\begin{tabularx}{\textwidth}{CCC}
+\toprule
+\textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}\\
+\midrule
+Entry 1		& Data			& Data\\
+Entry 2		& Data			& Data\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section[\appendixname~\thesection]{}
+All appendix sections must be cited in the main text. In the appendices, Figures, Tables, etc. should be labeled, starting with ``A''---e.g., Figure A1, Figure A2, etc.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\isPreprints{}{% This command is only used for ``preprints''.
+\begin{adjustwidth}{-\extralength}{0cm}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+%\printendnotes[custom] % Un-comment to print a list of endnotes
+
+\reftitle{References}
+
+% Please provide either the correct journal abbreviation (e.g. according to the “List of Title Word Abbreviations” http://www.issn.org/services/online-services/access-to-the-ltwa/) or the full name of the journal.
+% Citations and References in Supplementary files are permitted provided that they also appear in the reference list here. 
+
+%=====================================
+% References, variant A: external bibliography
+%=====================================
+% \bibliography{your_external_BibTeX_file}
+
+%=====================================
+% References, variant B: internal bibliography
+%=====================================
+
+% ACS format
+\isAPAandChicago{}{%
+\begin{thebibliography}{999}
+% Reference 1
+\bibitem[Author1(year)]{ref-journal}
+Author~1, T. The title of the cited article. {\em Journal Abbreviation} {\bf 2008}, {\em 10}, 142--149.
+% Reference 2
+\bibitem[Author2(year)]{ref-book1}
+Author~2, L. The title of the cited contribution. In {\em The Book Title}; Editor 1, F., Editor 2, A., Eds.; Publishing House: City, Country, 2007; pp. 32--58.
+% Reference 3
+\bibitem[Author1 and Author2 (year)]{ref-book2}
+Author 1, A.; Author 2, B. \textit{Book Title}, 3rd ed.; Publisher: Publisher Location, Country, 2008; pp. 154--196.
+% Reference 4
+\bibitem[Author4(year)]{ref-unpublish}
+Author 1, A.B.; Author 2, C. Title of Unpublished Work. \textit{Abbreviated Journal Name} year, \textit{phrase indicating stage of publication (submitted; accepted; in press)}.
+% Reference 5
+\bibitem[Author8(year)]{ref-url}
+Title of Site. Available online: URL (accessed on Day Month Year).
+% Reference 6
+\bibitem[Author6(year)]{ref-proceeding}
+Author 1, A.B.; Author 2, C.D.; Author 3, E.F. Title of presentation. In Proceedings of the Name of the Conference, Location of Conference, Country, Date of Conference (Day Month Year); Abstract Number (optional), Pagination (optional).
+% Reference 7
+\bibitem[Author7(year)]{ref-thesis}
+Author 1, A.B. Title of Thesis. Level of Thesis, Degree-Granting University, Location of University, Date of Completion.
+\end{thebibliography}
+}
+
+% Chicago format (Used for journal: arts, genealogy, histories, humanities, jintelligence, laws, literature, religions, risks, socsci)
+\isChicagoStyle{%
+\begin{thebibliography}{999}
+% Reference 1
+\bibitem[Aranceta-Bartrina(1999a)]{ref-journal}
+Aranceta-Bartrina, Javier. 1999a. Title of the cited article. \textit{Journal Title} 6: 100--10.
+% Reference 2
+\bibitem[Aranceta-Bartrina(1999b)]{ref-book1}
+Aranceta-Bartrina, Javier. 1999b. Title of the chapter. In \textit{Book Title}, 2nd ed. Edited by Editor 1 and Editor 2. Publication place: Publisher, vol. 3, pp. 54–96.
+% Reference 3
+\bibitem[Baranwal and Munteanu {[1921]}(1955)]{ref-book2}
+Baranwal, Ajay K., and Costea Munteanu. 1955. \textit{Book Title}. Publication place: Publisher, pp. 154--96. First published 1921 (op-tional).
+% Reference 4
+\bibitem[Berry and Smith(1999)]{ref-thesis}
+Berry, Evan, and Amy M. Smith. 1999. Title of Thesis. Level of Thesis, Degree-Granting University, City, Country. Identifi-cation information (if available).
+% Reference 5
+\bibitem[Cojocaru et al.(1999)]{ref-unpublish}
+Cojocaru, Ludmila, Dragos Constatin Sanda, and Eun Kyeong Yun. 1999. Title of Unpublished Work. \textit{Journal Title}, phrase indicating stage of publication.
+% Reference 6
+\bibitem[Driver et al.(2000)]{ref-proceeding}
+Driver, John P., Steffen Rohrs, and Sean Meighoo. 2000. Title of Presentation. In \textit{Title of the Collected Work} (if available). Paper presented at Name of the Conference, Location of Conference, Date of Conference.
+% Reference 7
+\bibitem[Harwood(2008)]{ref-url}
+Harwood, John. 2008. Title of the cited article. Available online: URL (accessed on Day Month Year).
+\end{thebibliography}
+}{}
+
+% APA format (Used for journal: admsci, behavsci, businesses, econometrics, economies, education, ejihpe, games, humans, ijfs, journalmedia, jrfm, languages, psycholint, publications, tourismhosp, youth)
+\isAPAStyle{%
+\begin{thebibliography}{999}
+% Reference 1
+\bibitem[\protect\citeauthoryear{Azikiwe \BBA\ Bello}{{2020a}}]{ref-journal}
+Azikiwe, H., \& Bello, A. (2020a). Title of the cited article. \textit{Journal Title}, \textit{Volume}(Issue), 
+Firstpage--Lastpage/Article Number.
+% Reference 2
+\bibitem[\protect\citeauthoryear{Azikiwe \BBA\ Bello}{{2020b}}]{ref-book1}
+Azikiwe, H., \& Bello, A. (2020b). \textit{Book title}. Publisher Name.
+% Reference 3
+\bibitem[Davison(1623/2019)]{ref-book2}
+Davison, T. E. (2019). Title of the book chapter. In A. A. Editor (Ed.), \textit{Title of the book: Subtitle} 
+(pp. Firstpage--Lastpage). Publisher Name. (Original work published 1623) (Optional).
+% Reference 4
+\bibitem[Fistek et al.(2017)]{ref-proceeding}
+Fistek, A., Jester, E., \& Sonnenberg, K. (2017, Month Day). Title of contribution [Type of contribution]. Conference Name, Conference City, Conference Country.
+% Reference 5
+\bibitem[Hutcheson(2012)]{ref-thesis}
+Hutcheson, V. H. (2012). \textit{Title of the thesis} [XX Thesis, Name of Institution Awarding the Degree].
+% Reference 6
+\bibitem[Lippincott \& Poindexter(2019)]{ref-unpublish}
+Lippincott, T., \& Poindexter, E. K. (2019). \textit{Title of the unpublished manuscript} [Unpublished manuscript/Manuscript in prepara-tion/Manuscript submitted for publication]. Department Name, Institution Name.
+% Reference 7
+\bibitem[Harwood(2008)]{ref-url}
+Harwood, J. (2008). \textit{Title of the cited article}. Available online: URL (accessed on Day Month Year).
+\end{thebibliography}
+}{}
+
+% If authors have biography, please use the format below
+%\section*{Short Biography of Authors}
+%\bio
+%{\raisebox{-0.35cm}{\includegraphics[width=3.5cm,height=5.3cm,clip,keepaspectratio]{Definitions/author1.pdf}}}
+%{\textbf{Firstname Lastname} Biography of first author}
+%
+%\bio
+%{\raisebox{-0.35cm}{\includegraphics[width=3.5cm,height=5.3cm,clip,keepaspectratio]{Definitions/author2.jpg}}}
+%{\textbf{Firstname Lastname} Biography of second author}
+
+% For the MDPI journals use author-date citation, please follow the formatting guidelines on http://www.mdpi.com/authors/references
+% To cite two works by the same author: \citeauthor{ref-journal-1a} (\citeyear{ref-journal-1a}, \citeyear{ref-journal-1b}). This produces: Whittaker (1967, 1975)
+% To cite two works by the same author with specific pages: \citeauthor{ref-journal-3a} (\citeyear{ref-journal-3a}, p. 328; \citeyear{ref-journal-3b}, p.475). This produces: Wong (1999, p. 328; 2000, p. 475)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% for journal Sci
+%\reviewreports{\\
+%Reviewer 1 comments and authors’ response\\
+%Reviewer 2 comments and authors’ response\\
+%Reviewer 3 comments and authors’ response
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\PublishersNote{}
+%\isPreprints{}{% This command is only used for ``preprints''.
+\end{adjustwidth}
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+\end{document}
+
+\end{document}
